@@ -1,8 +1,6 @@
 from __future__ import division 
 import numpy as np
 
-
-
 def meansqrerror(weights,data):
     err=0
     for i in range(1,len(data)):
