@@ -14,3 +14,7 @@ In the function grad_run(weights,data,learnrate) we decide on the number of iter
 The client file calls these functions with proper inputs.
 The client file runs the grad_run function to produce the weights, then calculates the meansquareerror in the weights and then prints the weights and the error.
 The printed weights are copied to the file test.py and run against test data. The output is written to output.csv file.
+
+
+Running the program with iterations = 50000,learnrate=0.000001 takes arounf 480 seconds and produces weights with a variance =40.921564538642215
+The weights mentioned in the test.py are obtained after experimenting with the iterations and learnrate. it produces a set of weights with a approx. variance = 27 
