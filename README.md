@@ -18,3 +18,5 @@ The printed weights are copied to the file test.py and run against test data. Th
 
 Running the program with iterations = 50000,learnrate=0.000001 takes arounf 480 seconds and produces weights with a variance =40.921564538642215 (RMSE= 6.39699652483)
 The weights mentioned in the test.py are obtained after experimenting with the iterations and learnrate. it produces a set of weights with a approx. variance = 27 (RMSE= 5.19615242271)
+
+Important Note: Do not increase learnrate above 0.000001. Make sure your learnrate<0.000001 . You'll get an overflow error if you use a bigger learnrate.
