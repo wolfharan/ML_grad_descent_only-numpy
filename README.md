@@ -1,4 +1,4 @@
-# ML_grad_descent_only-numpy
+# ML Gradient Descent from scratch in python to predict boston housing prices (libraries used: only python)
 An implementation of Gradient Descent(from sratch, uses only Python and Numpy) to fit a line using Linear Regression to the boston housing data set.  It is more faster and easier to acheive with a library like TensorFlow, but this implementation uses no other library except for numpy. This helps in understanding Gradient Descent at a deeper level.
 
 IMPORTANT NOTE: It takes some time for the function to finish all the 800000 iterations and produce the weights as an output. 
