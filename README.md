@@ -16,5 +16,5 @@ The client file runs the grad_run function to produce the weights, then calculat
 The printed weights are copied to the file test.py and run against test data. The output is written to output.csv file.
 
 
-Running the program with iterations = 50000,learnrate=0.000001 takes arounf 480 seconds and produces weights with a variance =40.921564538642215
-The weights mentioned in the test.py are obtained after experimenting with the iterations and learnrate. it produces a set of weights with a approx. variance = 27 
+Running the program with iterations = 50000,learnrate=0.000001 takes arounf 480 seconds and produces weights with a variance =40.921564538642215 (RMSE= 6.39699652483)
+The weights mentioned in the test.py are obtained after experimenting with the iterations and learnrate. it produces a set of weights with a approx. variance = 27 (RMSE= 5.19615242271)
